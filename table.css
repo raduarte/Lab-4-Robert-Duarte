@@ -1,0 +1,49 @@
+#table{
+    width: 95%;
+    margin: auto; 
+    padding: 15px;
+}
+
+#table caption{
+    margin-bottom: 15px;
+    font-weight: bold;
+    
+    
+}
+
+#table table td, #table table tr th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+#table table{
+    width: 100%;
+    margin: auto;
+}
+
+#table table tr th{
+    background-color: #c6fff8;
+    border-collapse: collapse;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#table table tr th:hover{
+    background-color: #c6fff8;
+}
+
+#table table tr:nth-child(even){
+    background-color: #dbfffc;
+    
+} 
+#table table tr:nth-child(even):hover{
+    background-color: #bedddb;
+}
+#table table tr:nth-child(odd):hover{
+    background-color: #cccccc;
+}
+#table table tr td{
+    text-align: center;
+}
